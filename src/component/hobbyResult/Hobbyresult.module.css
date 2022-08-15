@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: bolder;
+    font-style:normal;
+  }
+  
+img{
+    height : 100%;
+    width: 100%;
+    background-size : cover;
+    background-position : center;
+    object-fit:fill;
+    
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+    /* justify-content: space-between; */
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    
+}
+
+.top {
+	height : 60vh;
+    flex-direction: column;
+	align-items: center;
+    /* padding-top: 5%; */
+    margin: 0 5% 0 5%;
+    /* padding-bottom: 10%; */
+    /* width: 400px; */
+    
+    font-size: 30px;
+}
+.top1{
+    height : 5vh;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    margin: 2.5vh;
+    color:#027FB7;
+    
+}
+.top2{
+    height : 40vh;
+}
+.top3{
+    margin: 2.5vh;
+    height : 5vh;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    color: #2DAAE2;
+    
+}
+.middle{
+    height: 20vh;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    
+}
+.middle_top{
+    /* padding:10% 0 5% 0; */
+    font-size:3em;
+    font-weight: 900;
+    margin: 0;
+}
+
+.middle_bottom{
+    font-size: 1.5em;
+    /* padding:0 0 10% 0; */
+    color: #BDB8B8;
+}
+
+
+.middle {
+	height: 25vh;
+    margin: 0 10% 0 10%;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+}
+.test_shre{
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    background-color: #2daae2;
+    color:  white;
+    border-radius: 20px;
+    font-size: 150%;
+    margin: 10px;
+    
+}
+.test_shre:hover{
+    border: 5px solid #6ab7ff;
+    transform: scale(1.05);
+    transition : transform 0.5s;
+  }
+
+.bottom{
+    height: 20vh;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+}
+.bottom1{
+    height: 5vh;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    font-size: 25px;
+}
+.bottom2{
+    display : flex;
+    justify-content: center;
+    align-items : center;
+
+}
+
+.bottom_icon{
+    padding: 20px;
+}
+  
+@media screen and (max-width:550px){
+    .top {
+        font-size: 20px;
+    }
+    .middle{
+        /* height : 30vh; */
+    }
+    .middle_top{
+        font-size: 2.5em;
+        padding:10% 0 10% 0;
+    }
+    
+    .middle_bottom{
+        font-size: 15px;
+    }
+    .test_shre{
+        width:250px;
+        height: 50px;
+        font-size: 150%;
+    }
+    .bottom1{
+        font-size: 20px;
+    }
+    .top3{
+        margin: 2.5vh 0;
+    }
+  }
+
+  @media screen and (max-width:380px){
+    .middle_top{
+        font-size: 2em;
+    }
+    .middle_bottom{
+        font-size: 15px;
+        padding:0 0 0 0;
+    }
+    .test_shre{
+        width:200px;
+        height: 50px;
+        font-size: 150%;
+    }
+  }

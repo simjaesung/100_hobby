@@ -1,0 +1,94 @@
+.container{
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    /* height: 100vh; */
+    background-color: #AEE3FB;
+}
+
+.top{
+    height: 70vh;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+    font-size: 175%;
+}
+.top_bottom{
+    font-size: 50%;
+    color: #2DAAE2;
+
+}
+.bar{
+    display : flex;
+    justify-content: center;
+    align-items : center;
+}
+
+.bar_comment{
+    display : flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items : center;
+    justify-content: space-between;
+    width: 80%;
+}
+.comment{
+
+}
+.comment{
+	position: relative;
+	background: #BDE0F0;
+	border: 4px solid #BDE0F0;
+}
+.comment:after, .comment:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.comment:after {
+	border-color: rgba(189, 224, 240, 0);
+	border-top-color: #BDE0F0;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.comment:before {
+	border-color: rgba(189, 224, 240, 0);
+	border-top-color: #BDE0F0;
+	border-width: 36px;
+	margin-left: -36px;
+}
+.next_btn{
+    display : flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items : center;
+}
+
+.btn{
+    border-radius: 10px;
+    font-size: 120%;
+    color:  white;
+    background-color: #2DAAE2;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin-top: 20%;
+}
+.btn:hover{
+    border: 5px solid #6ab7ff;
+    transform: scale(1.05);
+    transition : transform 0.5s;
+}
+
+@media screen and (max-width:400px){
+    .top{
+        font-size: 150%;
+    }
+}

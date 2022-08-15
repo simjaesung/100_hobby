@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: bolder;
+    font-style:normal;
+}
+
+.start{
+    opacity: 0;
+}
+  
+.end{
+opacity: 1;
+transition: opacity 0.5s;
+}
+  
+.Q_box{
+    font-family: 'GmarketSansMedium';
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    background-color: bisque;
+    
+}
