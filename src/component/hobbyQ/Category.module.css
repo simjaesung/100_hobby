@@ -1,0 +1,53 @@
+.container{
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    /* height: 100vh; */
+    background-color: #AEE3FB;
+}
+.top{
+    height: 70vh;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    font-size: 175%;
+}
+.btn_container{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btns{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
+}
+
+.btn{
+    border-radius: 10px;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    height: 75%;
+    font-size: 150%;
+    /* height: 50px; */
+    color:  white;
+    background-color: #2DAAE2;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 5px solid #6ab7ff;
+    transform: scale(1.05);
+    transition : transform 0.5s;
+}
+
+@media screen and (max-width:400px){
+    .top{
+        font-size: 150%;
+    }
+    .btn{
+        font-size: 100%;
+    }
+}

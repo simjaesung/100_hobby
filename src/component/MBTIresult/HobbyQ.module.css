@@ -1,0 +1,12 @@
+.result_container{
+    background-color: #e1f5fe;
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    margin: auto;
+    height: 100vh;
+    max-width: 700px;
+}
+
+.css-iljtu2-MuiRating-root{
+    font-size: 100px;
+}

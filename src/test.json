@@ -1,0 +1,76 @@
+{
+  "test": [
+    {
+      "id": 1,
+      "MBTI": "",
+      "category": "",
+      "people_number": "",
+      "inout": "",
+      "weather": ""
+    },
+    {
+      "MBTI": "ISFJ",
+      "category": "스포츠",
+      "people_number": "사람 수: 75",
+      "inout": 20,
+      "weather": "날씨: 75",
+      "id": 2
+    },
+    {
+      "MBTI": "INFJ",
+      "category": "스포츠",
+      "people_number": "사람 수: 50",
+      "inout": 50,
+      "weather": "날씨: 50",
+      "id": 3
+    },
+    {
+      "MBTI": "INFJ",
+      "category": "스포츠",
+      "people_number": "사람 수: 50",
+      "inout": 50,
+      "weather": "날씨: 50",
+      "id": 4
+    },
+    {
+      "MBTI": "INFJ",
+      "category": "스포츠",
+      "people_number": "사람 수: 50",
+      "inout": 50,
+      "weather": "날씨: 50",
+      "id": 5
+    },
+    {
+      "MBTI": "INFJ",
+      "category": "스포츠",
+      "people_number": "사람 수: 50",
+      "inout": 50,
+      "weather": "날씨: 50",
+      "id": 6
+    },
+    {
+      "MBTI": "INFJ",
+      "category": "스포츠",
+      "people_number": "사람 수: 50",
+      "inout": 50,
+      "weather": "날씨: 50",
+      "id": 7
+    },
+    {
+      "MBTI": "INFJ",
+      "category": "스포츠",
+      "people_number": "사람 수: 50",
+      "inout": 50,
+      "weather": "날씨: 50",
+      "id": 8
+    },
+    {
+      "MBTI": "INFJ",
+      "category": "스포츠",
+      "people_number": "사람 수: 50",
+      "inout": 50,
+      "weather": "날씨: 50",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+.loading_container{
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    height: 75vh;
+}
+
+.loading_comment_top{
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'GmarketSansMedium';
+    color: #2daae2;
+}
+
+.loading{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.loading_comment_bottom{
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+}
+
+.loading_comment_bottom2{
+    color: #2daae2;
+}
